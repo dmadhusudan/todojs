@@ -1,0 +1,224 @@
+body
+{
+   gap: 0px;
+   background-color: black; 
+}
+#main-container.active
+{
+    user-select: none;
+    filter: blur(3px);
+    margin :20px auto;
+    width: 75%;
+    min-height: 600px;
+    /* border: 2px solid red; */
+}
+#main-container{
+    margin :20px auto;
+    width: 75%;
+    min-height: 600px;
+    /* border: 2px solid red; */
+}
+#r1
+{
+    width: 99%;
+    height: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.task
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.list
+{
+    font-size: 40px;
+    font-weight: 100px;
+    padding-left: 10px;
+    color: white;
+}
+.r1-t2
+{
+    width: 200px;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fa-plus
+{
+   font-size: 40px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   background-color: blue;
+   border-radius: 50%;
+}
+.add
+{
+    font-size: 30px;
+    color: white;
+    /* font-weight: bold; */
+}
+.r2{
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    
+}
+#dynamic-box{
+    width: 99%;
+    /* min-height: 150px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.dynamic-cards
+{
+   width: 250px;
+   box-shadow: 4px 4px 4px gray;
+    min-height: 350px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 20px;
+}
+.tasks{
+    /* border: 1px solid red; */
+    min-height: 200px;
+    /* min-width: 250px; */
+}
+.innerdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.intext{
+    font-size: 20px;
+}
+.mark{
+    width: 100px;
+    min-height: 20px;
+    background-color: cornflowerblue;
+    /* color: white; */
+    border-radius: 20px 20px;
+}
+.dt-1{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.del-btn1{
+    position: relative;
+    width:40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    color: red;
+    left: 130px;
+    top: 0px;
+    font-size: 25px;
+}
+.add-btn1{
+    position: relative;
+    width:40px;
+    height: 40px;
+    color: red;
+    left: 150px;
+    top: 0px;
+    font-size: 25px;
+}
+.popup-card{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    visibility: hidden;
+    
+}
+.popup-card.active{
+    visibility: visible;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+.popup-card2{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    visibility: hidden;
+    
+}
+.popup-card2.active{
+    visibility: visible;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+}
+.pop-text{
+    color: red;
+    font-size: 25px;
+    /* text-align: center; */
+}
+.input{
+    width: 300px ;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25px;
+}
+.input2{
+    width: 300px ;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25px;
+}
+.btn1{
+    margin-top: 10px;
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    border: none;
+}
+.btn2{
+    margin-left: 25px;
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    border: none;
+}

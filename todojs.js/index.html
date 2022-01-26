@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App JS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div id="main-container">
+        <div id="r1">
+            <div class="r1-t1"><span class="task">Tasks</span><span class="list">Lists</span></div>
+            <div class="r1-t2">
+                <div><i class="fas fa-plus" onclick="popup()"></i></div>
+                <div class="add">Add-Items</div>
+            </div>
+        </div>
+        <div class="r2">No Items In The ToDo List</div>
+        <div id="dynamic-box">
+            <!-- <div class="dynamic-cards"></div> -->
+        </div>
+    </div>
+    <div class="popup-card ">
+        <p class="pop-text">Add New List</p>
+         <input type="text" placeholder="Add New List" class="input">
+         <span><button class="btn1" onclick="invalue()">Add</button></span>
+         <span><button class="btn2" onclick="popup()">Close</button></span>
+    </div>
+    <div class="popup-card2 ">
+        <p class="pop-text">Add New List</p>
+         <input type="text" placeholder="Add New List" class="input2">
+         <span><button class="btn1" onclick="subtask()">Add</button></span>
+         <span><button class="btn2" onclick="popup2(false)">Close</button></span>
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>
